@@ -13,6 +13,11 @@ To install, download or clone the repo, then:
 
 ## Develop Client
 
+### Testing the Smart Contract DAPP 
+Set Ganache Mnemonic to `candy maple cake sugar pudding cream honey rich smooth crumble sweet treat`  
+
+In Ganache increase addresses to generate: `TOTAL ACCOUNTS TO GENERATE` to `50.`  
+
 To run truffle tests:
 
 `truffle test ./test/flightSurety.js`

@@ -13,8 +13,8 @@
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">FlightSurety</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
     </nav>
@@ -23,8 +23,20 @@
 
         <div id="display-wrapper" class="top-20">
         </div>
-        <div class="row top-20">
-            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+
+        <div id="display-wrapper-operational" class="top-20">
+        </div>
+
+        <div id="display-user-actions" class="top-20">
+            <section style="margin-bottom: 10px;">
+                <h4>Passenger Actions</h4>
+                <h5>Show balance and withdraw insurance claim</h5>
+            </section>
+            <div class="row">
+                <div class="col-sm-1" style="margin: auto 0px;">Balance</div>
+                <div id="passangerBalance" class="field-value" style="width: 80px; margin: auto 0px;">??? ETH</div>
+                <button id="passengerWithdraw" class="btn btn-success" style="margin: 5px;">Withdraw</button>
+            </div>
         </div>
     </main>
 

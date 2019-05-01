@@ -9,6 +9,7 @@ src/server/config.json
 /dapp/
 prod/
 
+*.zip
 # Runtime data
 pids
 *.pid
